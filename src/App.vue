@@ -1,14 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <TheHeader/>
     <router-view/>
+    <TheFooter/>
   </div>
 </template>
 
 <script>
-
+import TheHeader from '@/components/TheHeader'
+import TheFooter from '@/components/TheFooter'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    TheHeader,
+    TheFooter
+  }
 }
 </script>
 
