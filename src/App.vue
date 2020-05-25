@@ -1,21 +1,27 @@
 <template>
-  <div id="app">
-    <TheHeader/>
-    <router-view/>
-    <TheFooter/>
+  <div id="main">
+    <div id="app">
+      <TheHeader />
+    </div>
+    <div class="container">
+      <router-view />
+    </div>
+    <div>
+      <TheFooter />
+    </div>
   </div>
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader'
-import TheFooter from '@/components/TheFooter'
+import TheHeader from "@/components/TheHeader";
+import TheFooter from "@/components/TheFooter";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TheHeader,
     TheFooter
   }
-}
+};
 </script>
 
 <style>
@@ -25,6 +31,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
