@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Slide from '@/components/Slide'
+import HomePage from '@/components/HomePage'
 import Api from '@/components/Api'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/Slide',
-      name: 'Slide',
-      component: Slide
+      path: '/',
+      name: 'HomePage',
+      component: HomePage
     },
     {
       path: '/api',

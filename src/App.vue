@@ -1,14 +1,10 @@
 <template>
-  <div id="main">
-    <div id="app">
+  <div id="app">
       <TheHeader />
-    </div>
-    <div class="container">
+      <div class="container">
       <router-view />
-    </div>
-    <div>
+      </div>
       <TheFooter />
-    </div>
   </div>
 </template>
 
@@ -31,5 +27,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #e9ebee;
 }
 </style>

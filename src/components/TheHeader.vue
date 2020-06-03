@@ -1,8 +1,10 @@
 <template>
   <div class="header">
-    <div class="container bg-info">
-      <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <div class="container">
+      <b-navbar toggleable="lg" type="dark">
+        <b-navbar-brand href="#">
+          <img src="https://placekitten.com/g/30/30" alt="Kitten" />
+        </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
@@ -48,6 +50,6 @@ export default {
 
 <style scoped>
 .header {
-  background-color: #17a2b8 !important;
+  background-color: #1c1c1c !important;
 }
 </style>
