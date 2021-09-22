@@ -1,3 +1,9 @@
 AAAAAAAAAAA
+<<<<<<< HEAD
 Change cais nay nha change ra nhieu
+=======
+11111 Đây cũng thế
+Đây là chỗ sửa và conflict
+Đây là chỗ sửa và conflict
+>>>>>>> 08181ff (no message)
 22222222222
